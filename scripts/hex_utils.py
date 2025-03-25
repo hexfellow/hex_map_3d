@@ -60,7 +60,7 @@ def trans_to_pcd(trans):
 MAP_NAME = "default"
 RAW_TRANS_FILE = "transformations.pcd"
 BASE_TRANS_FILE = "base_transformations.pcd"
-JSON_FILE = "memory.txt"
+JSON_FILE = "memory.json"
 FINAL_MAP_FILE = "FinalMap.pcd"
 RAW_FRAME_FOLD = "keyFrames"
 BASE_FRAME_FOLD = "baseFrames"

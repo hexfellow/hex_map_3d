@@ -219,7 +219,7 @@ class Map2dTransform:
 
 def main():
     map_name = "default"
-    if sys.argv[1]:
+    if len(sys.argv) > 1:
         map_name = sys.argv[1]
 
     final_map_path = f"{MAP_DIR}/{map_name}/{FINAL_MAP_FILE}"

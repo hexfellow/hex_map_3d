@@ -166,7 +166,7 @@ class Map3dTransform:
 
 def main():
     map_name = "default"
-    if sys.argv[1]:
+    if len(sys.argv) > 1:
         map_name = sys.argv[1] 
 
     base_trans_path = f"{MAP_DIR}/{map_name}/{BASE_TRANS_FILE}"
