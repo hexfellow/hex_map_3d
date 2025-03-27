@@ -73,7 +73,7 @@ SENSOR_IN_BASE = np.array([[0.0000000, 0.9205049, 0.3907311, 0.16013],
                            [0.0000000, -0.3907311, 0.9205049, 0.22777],
                            [0.0000000, 0.0000000, 0.0000000, 1.00000]])
 # trans_modifier
-TRANS_MIN_GOAL_DIST = 1.0
+TRANS_MIN_GOAL_DIST = 3.0
 # map3d_transform
 MAP3D_FINAL_VOXEL_SIZE = 0.1
 MAP3D_FILTER_HEIGHT_BOUND = [-0.5, 50.0]
